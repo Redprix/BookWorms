@@ -1,0 +1,16 @@
+.clickable-block {
+    display: inline-block;
+  }
+
+  .block-content {
+    display: block;
+  }
+
+  .HoverEffect {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+  }
+
+  .clickable-block:hover .block-content {
+    transform: translateX(7px);
+  }
